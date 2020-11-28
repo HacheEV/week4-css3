@@ -1,0 +1,42 @@
+table{
+    margin: 2rem;
+    border-collapse: collapse;
+    border-style: hidden;
+    min-width: 15rem;
+    
+}
+tr{
+    height: 2.5rem;
+    justify-content: center;
+   
+}
+.top{
+    border: none;
+}
+
+.top-left{
+    border-radius: 10px 0px 0px 0px;
+}
+.top-right{
+    border-radius: 0px 10px 0px 0px;
+}
+.bottom-left{
+    border-radius: 0px 0px 0px 10px;
+}
+.bottom-right{
+    border-radius: 0px 0px 10px 0px;
+}
+th{
+    background: #969696;
+    width: 6rem;
+    border: 0.5px solid black;
+    
+}
+td{
+    color: #a6a6a6;
+    background:  #d9d9d9;
+    text-align: center;
+    border: 0.5px solid black;
+    
+
+}
